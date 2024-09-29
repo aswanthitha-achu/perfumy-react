@@ -1,0 +1,40 @@
+* {margin: 0;
+    padding: 0;}
+    
+    nav{ display: flex;
+        justify-content: space-between;
+         background-color: black; color: whitesmoke;
+         padding: 10px; padding-bottom: 10px;}
+         li { color: grey; cursor: pointer; margin-bottom: 5px; 
+        padding-bottom: 10px;}
+         li:hover { color: white;}
+    
+    h1 { margin-left: 30px;}
+    li { display: inline;}
+    .one { margin-left: 80%;}
+    .two { margin-left: 20px;}
+    .three { margin-left: 20px;}
+    .four { margin-left: 20px;}
+    input { width: 60%; 
+    padding: 10px;}
+    .searchbar { text-align: center; padding: 40px;} 
+    .box {border-style: solid; display: inline-block;
+    border-color: black; border-width: 1px;}
+    .box {
+         border-color: black;
+         display: inline-block;
+         border-style: solid;
+         border-width: 2px;
+         width: 220px; }
+    
+         .box img {
+              height: 250px;
+              width: 220px;
+         }
+         .product { text-align: center; cursor: pointer;}
+         .box:hover {background-color: black; color: white; cursor: pointer;}
+         
+         .about { text-align: center; margin-top: 30px;}
+         p { padding: 20px; text-align: justify;}
+         .contact {display: block; background-color: black; color: white;
+         text-align: center; padding: 10px; margin-top: 10px;}
